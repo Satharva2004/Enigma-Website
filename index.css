@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url("background.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; /* Ensures vertical stacking of elements */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Logo Styles */
+.csi-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-image: url("csilogo.png"); /* Transparent PNG */
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 200px;
+}
+
+.gst-logo {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  background-image: url("siesWlogo.png"); /* Transparent PNG */
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 230px;
+}
+
+.main-text {
+  text-align: center;
+  color: white;
+  font-family: "Bangers", sans-serif;
+}
+
+.title div {
+  margin: 5px 0;
+}
+
+.presents {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.csi {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.event-title {
+  font-size: 9rem;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  letter-spacing: 0.23rem;
+}
+
+.theme {
+  font-size: 2rem;
+  margin-top: 10px;
+  text-shadow: 1px 1px 3px black;
+  letter-spacing: 0.15rem;
+}
+
+.event-details {
+  margin-top: 20px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 0.3rem;
+}
+
+/* Button Container */
+.button-container {
+  margin-top: 20px; /* Creates space between text and the button */
+}
+
+/* Button Styling */
+.unstop-button {
+  background-color: #ff4d4d; /* Vibrant red color */
+  color: white;
+  font-family: "Bangers", sans-serif;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+/* Button Hover Effect */
+.unstop-button:hover {
+  background-color: #e63939; /* Darker red on hover */
+  transform: scale(1.1);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Button Focus State */
+.unstop-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 77, 77, 0.5);
+}
+
+.countdown-container {
+  margin-top: 20px; /* Spacing from the button */
+  text-align: center;
+  font-family: "Bangers", sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+#countdown {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  letter-spacing: 0.2rem;
+}
