@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 .container {
   background-image: url("background.png");
   width: 100vw;
@@ -11,11 +12,29 @@
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
-  flex-direction: column; /* Ensures vertical stacking of elements */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   position: relative;
 }
+
+
+/* gpt */
+/* .container {
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} */
+
 
 /* Logo Styles */
 .csi-logo {
@@ -135,4 +154,166 @@
   display: inline-block;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
   letter-spacing: 0.2rem;
+}
+/* 
+-------------------------------------------------------------- */
+
+.welcome-section {
+  background-color: #002D62;
+  padding: 20px;
+  text-align: center;
+}
+
+.welcome-section h1 {
+  font-size: 6em;
+  color: white;
+  font-family: 'bangers';
+  text-shadow: 2px 2px 4px black;
+  font-weight: bolder;
+}
+
+.welcome-section h2 {
+  margin-top: 0.6em;
+  font-size: 3em;
+  color: white;
+  font-family: 'bangers';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.6em;
+}
+
+.welcome-section ul {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: #333;
+}
+
+.welcome-section ul li {
+  list-style-type: disc;
+  margin-bottom: 10px;
+  color: white;
+  font-family: 'Bangers', cursive;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+/* 
+----------------------------------------------------------------- */
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #13274F;
+  padding: 20px;
+}
+
+.about-csi,
+.our-audience {
+  width: 50%;
+}
+
+.about-csi h2,
+.our-audience h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 3em;
+  color: white;
+  font-family: 'bangers';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-bottom: 0.6em;
+}
+
+.about-csi ul{
+  list-style-type: disc;
+  padding-left: 80px;
+  color: white;
+  font-family: 'Bangers', cursive;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.our-audience ul {
+  list-style-type: disc;
+  padding-left: 120px;
+  color: white;
+  font-family: 'Bangers', cursive;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+/* 
+----------------------------------------------------------------- */
+
+.contact-details {
+  background-color: #002244;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-details h2 {
+  text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: white;
+    font-family: 'bangers';
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.join h1 {
+  color: white;
+  font-family: 'Bangers', cursive;
+  font-size: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin-top: 80px;
+  animation: blink 1s infinite;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.contact {
+  width: 45%;
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+.contact h3 {
+    color: white;
+    font-family: 'Bangers', cursive;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+.contact h4 {
+  color: white;
+  font-family: 'Bangers', cursive;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 25px;
+}
+
+.contact p {
+  margin: 5px 0;
+  color: white;
+  font-family: 'Bangers', cursive;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 20px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
