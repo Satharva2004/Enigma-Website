@@ -7,7 +7,7 @@
 
 /* Base styles */
 body {
-  background-image: url("graffiti-spider-man_5120x2681_xtrafondos.com.jpg");
+  background-image: url("miles-morales-in-spider-man-into-the-spider-verse_3840x2160_xtrafondos.com.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ a {
 
 /* Button Styles */
 .button-container {
-  margin-top: clamp(10px, 3vw, 20px);
+  margin-top: clamp(25px, 3vw, 20px);
 }
 
 .unstop-button {
@@ -151,7 +151,7 @@ a {
 
 /* Countdown Styles */
 .countdown-container {
-  margin-top: clamp(10px, 3vw, 20px);
+  margin-top: clamp(25px, 3vw, 20px);
   text-align: center;
   font-family: "Bangers", sans-serif;
   font-size: clamp(1.5rem, 3vw, 2rem);
